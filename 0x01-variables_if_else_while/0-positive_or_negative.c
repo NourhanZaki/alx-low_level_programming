@@ -3,14 +3,13 @@
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/* Deterime if the number is positive or negative or zero */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
     	if (n < 0)
     	{
     		printf("%d is negative\n", n);
@@ -23,5 +22,5 @@ int main(void)
     	{
     		printf("%d is positive\n", n);
     	}
-		return (0);
+	return (0);
 }
